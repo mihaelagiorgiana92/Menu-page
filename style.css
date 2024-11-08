@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Inspiration&family=Merienda:wght@300..900&family=Mountains+of+Christmas:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    background-image: url(border3.jpg);
+    background-size: cover;
+}
+
+/* header section */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width:130px;
+    
+}
+
+
+nav {
+    text-align: center;
+    
+}
+
+
+nav a {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+   
+}
+
+a:hover {
+    color: darkgreen;
+    
+}
+
+button {
+    background-color: rgb(49, 10, 10);
+    color: white;
+    border: none;
+    display: inline-block;
+    min-width: 80px;
+    margin-left: 20px;
+}
+
+
+.button:hover {
+    background-color: rgb(35, 69, 35);
+    cursor: pointer;
+}
+
+
+.animate-title {
+    text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
+    color: black;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* Place items side by side */
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu {
+    font-family: cursive;
+    flex: 1;
+    max-width: 300px;
+}
+
+.menu-group {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.menu-group img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-heading {
+    font-family: 'Mountains of Christmas', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+}
+
+header{
+    margin: 10px;
+    text-align: center;
+    
+}
+
+img{
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+.form-container{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6px;
+    background:lightgrey;
+    padding: 20px;
+    color: green;
+    font-family: cursive;
+    font-weight: bold;
+    font-size:18px;
+    
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color:red;
+    color: white;
+    padding: 12px 20px;
+    border: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.reachout{
+    background-color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+}
